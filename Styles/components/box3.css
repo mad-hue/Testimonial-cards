@@ -1,0 +1,48 @@
+.container__box3 {
+    position: absolute;
+    top: 350px;
+    display: flex;
+    gap: 1rem;
+    margin:0 4rem 2rem;
+}
+
+.box3__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.box3__profile {
+    background-color: var(--clr-bg);
+    color: var(--clr-white);
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+
+.box3__star {
+    color: #cca83b;
+    font-size: 1.2rem;
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.box3__name {
+    font-family: var(--font-secondary);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.box3__jt {
+    font-family: var(--font-primary);
+    color: #848494;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.box3__description {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    max-width: 35ch;
+}

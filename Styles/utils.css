@@ -1,0 +1,9 @@
+.container {
+    max-width: 900px;
+    margin:50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+}

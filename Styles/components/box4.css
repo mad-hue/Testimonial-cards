@@ -1,0 +1,51 @@
+.container__box4 {
+    position: absolute;
+    top: 700px;
+    margin:0 4rem 2rem;
+    padding: 3rem;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.box4__description {
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.box4__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.fa-solid {
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.box4__img1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.box4__img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box4__name {
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
